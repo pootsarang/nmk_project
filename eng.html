@@ -131,9 +131,9 @@
 
           <!-- 아이콘 영역 -->
           <div class="header-icon">
-            <div class="lang">
-              <button id="lang-en-btn">EN</button>
-              <button id="lang-kr-btn">KR</button>
+           <div class="lang">
+              <a href="index.html">KR </a>
+              <a href="eng.html">EN</a>
             </div>
             <div class="search-icon">
               <button id="search-btn">
@@ -166,23 +166,27 @@
         </div>
       </div>
     </div>
-    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+       <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
     <!-- 햄버거 네비게이션 -->
     <nav id="ham-nav">
       <!-- 메인 메뉴 -->
       <div class="panel main-panel">
         <ul>
-          <li><a href="#" data-target="sub-design">박물관 소개</a></li>
+          <li><a href="#" data-target="sub-design">관람 정보</a></li>
           <li><a href="#" data-target="sub-furn">전시 안내</a></li>
           <li><a href="#" data-target="sub-fabric">문화 행사</a></li>
-          <!-- 여기서부터 데이타타겟 수정해야함 -->
-          <li><a href="#" data-target="sub-fabric">탐험 헌터</a></li>
+
           <!-- 그냥 링크로 감 -->
           <li><a href="https://www.museumshop.or.kr/kor/main.do">굿즈</a></li>
           <li>
             <a href="https://www.museum.go.kr/MUSEUM/contents/M0801000000.do"
-              >박물관 연혁</a
+              >박물관 소개</a
             >
+          </li>
+          <li>
+            <div class="search-icon">
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
           </li>
         </ul>
       </div>
@@ -191,35 +195,26 @@
       <div class="panel sub-panel" id="sub-design">
         <button class="back-btn">뒤로 ➜</button>
         <ul>
-          <li><a href="#">관람 정보</a></li>
-          <li><a href="#">박물관 히스토리</a></li>
-          <li><a href="#">박물관 가이드</a></li>
+          <li><a href="#">이용 안내</a></li>
+          <li><a href="#">예약 안내</a></li>
+          <li><a href="#">자주 묻는 질문</a></li>
         </ul>
       </div>
 
       <div class="panel sub-panel" id="sub-furn">
         <button class="back-btn">뒤로 ➜</button>
         <ul>
-          <li><a href="#">작품들</a></li>
-          <li><a href="#">그림들</a></li>
-          <li><a href="#">특별전시</a></li>
+          <li><a href="#">상설 전시</a></li>
+          <li><a href="#">특별 전시</a></li>
+          <li><a href="#">E-박물관</a></li>
         </ul>
       </div>
       <div class="panel sub-panel" id="sub-fabric">
         <button class="back-btn">뒤로 ➜</button>
         <ul>
-          <li><a href="#">이벤트 소개</a></li>
-          <li><a href="#">스템프 이벤트</a></li>
-          <li><a href="#">문화체험 이벤트</a></li>
-        </ul>
-      </div>
-      <!-- 수정예정1 -->
-      <div class="panel sub-panel" id="sub-fabric">
-        <button class="back-btn">뒤로 ➜</button>
-        <ul>
-          <li><a href="#">비 언 헌터</a></li>
-          <li><a href="#">전용컨텐츠1</a></li>
-          <li><a href="#">전용컨텐츠2</a></li>
+          <li><a href="#">케데헌 행사</a></li>
+          <li><a href="#">스템프 행사</a></li>
+          <li><a href="#">문화체험 행사</a></li>
         </ul>
       </div>
     </nav>
@@ -229,6 +224,7 @@
         <input type="text" placeholder="검색어를 입력하세요" />
       </div>
     </div>
+    <!-- @@@@@@@@@@@@@@@@@@@@end@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
     <!-- 리뷰 -->
     <div class="review-wrap">
@@ -431,7 +427,7 @@
 
       <!-- 내부 컨테이너 -->
       <div class="info-inner">
-        <h3>Info</h3>
+        <h3>info</h3>
 
         <!-- 탭 영역 -->
         <div class="tabs">
@@ -450,24 +446,24 @@
                 src="images/info/Asset 4@4x.png"
                 alt="logo"
               />
-              <span>내부지도</span>
+              <span>Museum Map</span>
             </label>
             <div class="tab-content" id="tab-01">
               <div class="info-map-item">
                 <img
                   class="info-map"
                   src="images/info/map.png"
-                  alt="내부지도"
+                  alt="Museum Map"
                 />
                 <div class="map-scr">
-                  <p>① 으뜸관 상설전시실</p>
-                  <p>② 특별전시실</p>
-                  <p>③ 거울못</p>
-                  <p>④ 푸드코트</p>
-                  <p>⑤ 카페 / 편의점</p>
-                  <p>⑥ 이촌역 (지하철)</p>
-                  <p>⑦ 주차장</p>
-                  <p><a href="#" class="read-more">더보기</a></p>
+                  <p>① Eudeum Hall Permanent Exhibition Hall</p>
+                  <p>② Special Exhibition Hall</p>
+                  <p>③ Mirror Pond</p>
+                  <p>④ Food Court</p>
+                  <p>⑤ Cafe / Convenience Store</p>
+                  <p>⑥ Ichon Station (Subway)</p>
+                  <p>⑦ Parking Lot</p>
+                  <p><a href="#" class="read-more">more</a></p>
                 </div>
               </div>
             </div>
@@ -482,46 +478,49 @@
                 src="images/info/Asset 4@4x.png"
                 alt="logo"
               />
-              <span>관람시간</span>
+              <span>Opening Hours</span>
             </label>
             <div class="tab-content" id="tab-02">
               <div class="open_time">
                 <div class="sc-top">
                   <div class="sc-top-l">
-                    <p><strong>관람 시간</strong></p>
+                    <p><strong>Opening Hours</strong></p>
                   </div>
                   <div class="sc-top-r">
-                    <p>월, 화, 목, 금, 일: 10:00 ~ 18:00 (최종 입장: 17:30)</p>
-                    <p>수, 토: 10:00 ~ 21:00 (최종 입장: 20:30)</p>
                     <p>
-                      옥외 전시장(정원)은 오전 7시부터 오후 10시까지 관람
-                      가능합니다.
+                      Mon, Tue, Thu, Fri, Sun: 10:00 ~ 18:00 (Last entry time:
+                      17:30)
+                    </p>
+                    <p>Wed, Sat: 10:00 ~ 21:00 (Last entry time: 20:30)</p>
+                    <p>
+                      The outdoor exhibition (Garden) is open for viewing from
+                      7:00 AM to 10:00 PM.
                     </p>
                   </div>
                 </div>
                 <div class="sc-bt-1">
                   <div class="sc-bt1-l">
-                    <p><strong>푸드코트</strong></p>
+                    <p><strong>Food Court</strong></p>
                   </div>
                   <div class="sc-bt1-r">
-                    <p>오후 9시 마감 (마지막 주문 20:30)</p>
+                    <p>Closes at 9:00 PM (Last order 20:30)</p>
                   </div>
                 </div>
                 <div class="sc-bt-2">
                   <div class="sc-bt2-l">
-                    <p><strong>레스토랑</strong></p>
+                    <p><strong>Restaurant</strong></p>
                   </div>
                   <div class="sc-bt2-r">
-                    <p>오후 9시 마감 (마지막 주문 20:30)</p>
+                    <p>Closes at 9:00 PM (Last order 20:30)</p>
                   </div>
                 </div>
                 <div class="sc-bt-3">
                   <div class="sc-bt3-l">
-                    <p><strong>편의점</strong></p>
+                    <p><strong>Convenience Store</strong></p>
                   </div>
                   <div class="sc-bt3-r">
-                    <p>오후 9시 마감 (마지막 주문 20:30)</p>
-                    <a href="#" class="read-more">더보기</a>
+                    <p>Closes at 9:00 PM (Last order 20:30)</p>
+                    <a href="#" class="read-more">more</a>
                   </div>
                 </div>
               </div>
@@ -537,23 +536,25 @@
                 src="images/info/Asset 4@4x.png"
                 alt="logo"
               />
-              <span>오시는길</span>
+              <span>Diraction</span>
             </label>
             <div class="tab-content" id="tab-03">
               <div class="info-diracr-item">
-                <img
-                  class="info-diract"
-                  src="images/info/direction.png"
-                  alt="오시는길"
-                />
+                <div class="info-dir-img-box">
+                  <img
+                    src="/images/info/direction.png"
+                    alt="오시는 길"
+                    class="info-direct"
+                  />
+                </div>
                 <div class="diract-scr">
                   <p>
-                    국립중앙박물관<br />
-                    주소: 서울특별시 용산구 서빙고로 137, 04383<br />
-                    (용산동6가 168-6)
+                    National Museum of Korea<br />
+                    Address: 137 Seobinggo-ro, Yongsan-gu, Seoul, 04383<br />
+                    (Yongsan-dong 6-ga 168-6)
                   </p>
-                  <p>전화 02-2077-9000</p>
-                  <a href="#" class="read-more">더보기</a>
+                  <p>Tel. 02-2077-9000</p>
+                  <a href="#" class="read-more">more</a>
                 </div>
               </div>
             </div>
@@ -603,13 +604,6 @@
         <!-- <img src="images/footer/Group 217.png" alt=""> -->
       </div>
     </div>
-    <!-- 퀵 메뉴 /gotop
-    <div class="fix-menu-wrap">
-      <a href="#" class="fix-menu">
-        <img src="images/footer/ticket.png" alt="ticket" />
-        <span>Buy The Ticket!</span>
-      </a>
-      <div class="top-btn"></div>
-    </div> -->
+    
   </body>
 </html>
