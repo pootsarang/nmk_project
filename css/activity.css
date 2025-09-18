@@ -32,7 +32,7 @@
 
 .activity h3 a {
   color: #fff;
-  font-family: "Pretendard", sans-serif;
+  /* font-family: "Pretendard", sans-serif; */
   font-weight: 100;
   font-size: clamp(15px, 1.5vw, 25px);
   white-space: nowrap;
@@ -113,4 +113,8 @@
   height: 70vh;
 }
 
+}
+
+.activity-txt h3{
+  font-weight: 100;
 }

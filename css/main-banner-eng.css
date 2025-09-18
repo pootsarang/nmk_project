@@ -23,18 +23,15 @@
 }
 .main-banner-txt{
   position: absolute;
-  top: 16%;
+  top: 10%;
   left: 0;
 
 }
 .main-banner-txt h1{
-  font-family: "Simple";
-      font-size: clamp(40px, 6vw, 100px);
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(40px, 5vw, 90px);
       color: white;
       margin: 7vw;
-      font-weight: 700;
-      letter-spacing: 10px;
-
 }
 
 .main-banner .swiper-wrapper{
